@@ -1,6 +1,6 @@
 {
     "name": "tns-cli",
-    "displayName": "tns-cli",
+    "displayName": "nativescript-cli",
     "description": "Run nativescript from vscode commandline for nativescript projects.",
     "icon": "images/tns.png",
     "version": "0.0.1",
@@ -42,7 +42,12 @@
         "onCommand:tns.help",
         "onCommand:tns.init",
         "onCommand:tns.build_ios",
-        "onCommand:tns.build_android"
+        "onCommand:tns.build_android",
+        "onCommand:tns.device",
+        "onCommand:tns.devicelists",
+        "onCommand:tns.devicelog",
+        "onCommand:tns.devicerun",
+        "onCommand:tns.devicelistapp"
         
     ],
     "main": "./out/src/nativescriptextension",
@@ -131,6 +136,26 @@
             {
             "command": "tns.build_android",
             "title": "tns build android"
+            },
+            {
+            "command": "tns.device",
+            "title": "tns device"
+            },
+            {
+            "command": "tns.devicelists",
+            "title": "tns device lists"
+            },
+            {
+            "command": "tns.devicelog",
+            "title": "tns device log"
+            },
+            {
+            "command": "tns.devicerun",
+            "title": "tns device run"
+            },
+            {
+            "command": "tns.devicelistapp",
+            "title": "tns device list-applications"
             }
         ]
     },
