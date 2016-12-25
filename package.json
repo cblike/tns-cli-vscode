@@ -3,7 +3,7 @@
     "displayName": "nativescript-cli",
     "description": "Run nativescript from vscode commandline for nativescript projects.",
     "icon": "images/tns.png",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "pkosta2006",
     "license": "SEE LICENSE IN LICENSE.md",
 	"bugs": {
@@ -16,7 +16,7 @@
 		"url": "https://github.com/prashantkoshta/tns-cli-vscode.git"
 	},
 	"categories": [
-		"Keymaps", "Languages", "Other"
+		"Languages", "Other"
 	],
     "engines": {
         "vscode": "^1.5.0"
@@ -26,7 +26,7 @@
         "onCommand:tns.run_android",
         "onCommand:tns.runEmulator_ios",
         "onCommand:tns.runEmulator_android",
-         "onCommand:tns.platformlist",
+        "onCommand:tns.platformlist",
         "onCommand:tns.addPlatform_ios",
         "onCommand:tns.addPlatform_android",
         "onCommand:tns.removePlatform_ios",
@@ -82,11 +82,11 @@
             "title": "tns platform add android"
             },
             {
-            "command": "tns.platformremove_ios",
+            "command": "tns.removePlatform_ios",
             "title": "tns platform remove ios"
             },
             {
-            "command": "tns.platformremove_android",
+            "command": "tns.removePlatform_android",
             "title": "tns platform remove android"
             },
             {
