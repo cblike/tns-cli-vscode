@@ -13,7 +13,7 @@ You have to installed following software before use of this.
 2. nativescript
 
 ## tns commands
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/NA4obwmBLYc/2.jpg)](https://youtu.be/NA4obwmBLYc)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/NA4obwmBLYc/2.jpg)](https://www.youtube.com/watch?v=NA4obwmBLYc)
 
 ## Release Notes
 
