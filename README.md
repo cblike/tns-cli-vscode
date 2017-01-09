@@ -19,7 +19,7 @@ You have to installed following software before use of this.
 
 This release include only tns command for nativescript based applications.
 
-### 0.0.1
+### 0.0.3
 
 Command line approach for nativescript.
 

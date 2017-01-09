@@ -3,7 +3,7 @@
     "displayName": "nativescript-cli",
     "description": "Run nativescript from vscode commandline for nativescript projects.",
     "icon": "images/tns.png",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "pkosta2006",
     "license": "SEE LICENSE IN LICENSE.md",
 	"bugs": {
@@ -22,6 +22,7 @@
         "vscode": "^1.5.0"
     },
     "activationEvents": [
+        "onCommand:tns.create",
         "onCommand:tns.run_ios",
         "onCommand:tns.run_android",
         "onCommand:tns.runEmulator_ios",
@@ -53,7 +54,11 @@
     "main": "./out/src/nativescriptextension",
     "contributes": {
         "commands": [
-             {
+            {
+            "command": "tns.create",
+            "title": "tns create"
+            },
+            {
             "command": "tns.run_ios",
             "title": "tns run ios"
             },

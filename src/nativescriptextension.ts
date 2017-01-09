@@ -9,6 +9,14 @@ export function activate(context: vscode.ExtensionContext) {
     let terminal:vscode.Terminal = vscode.window.createTerminal("tns");
     terminal.show(true);
 
+    vscode.commands.registerCommand('tns.create', () => {
+        let project = vscode.window.showInputBox({ placeHolder: 'name of your project or options [--path <Directory>] [--appid <App ID>] [--copy-from <Directory>] [--template <Valid template>] [--ng] [--tsc]'}).then(
+            (data) => {
+                    terminal.sendText("tns create "+data);
+                }
+        )  
+    });
+
     vscode.commands.registerCommand('tns.run_ios', () => {
         terminal.sendText("tns run ios");
     });
